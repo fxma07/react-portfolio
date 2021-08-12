@@ -4,21 +4,25 @@ import {Row, Col, Container, Card, Button} from 'react-bootstrap'
 import img1 from './assets/email-template.png'
 import img2 from './assets/budget-tracker.png'
 import img3 from './assets/ecommerce.png'
-
+import Fade from 'react-reveal/Fade'
+import Zoom from 'react-reveal/Zoom'
 function Projects() {
     return (
 <div className="project-wrapper justify-content-center text-center pb-4" id="projects">
 <Container>
+<Fade top>
 <h2 className="project-heading">Projects</h2>
+</Fade>
+  <Fade bottom>
     <Row>
       <Col sm={12} md={4}>
         <Card className="card">
         <img src={img1} className="card-img-top"/>
           <Card.Body className="pb-0 pr-0 pl-0">
-            <Card.Title className="pl-3 pr-3">
+            <Card.Title>
               <h2>Email Template</h2>
             </Card.Title>
-            <Card.Text className="pl-3 pr-3">
+            <Card.Text>
               Responsive HTML/CSS Email template used in email marketing platforms like Mailchimp.
             </Card.Text>
             <Button href="https://fxma07.github.io/email-template-shibui/" target="/" className="btn-project mb-3">View</Button>
@@ -29,10 +33,10 @@ function Projects() {
         <Card className="card">
         <img src={img2} className="card-img-top"/>
           <Card.Body className="pb-0 pr-0 pl-0">
-            <Card.Title className="pl-3 pr-3">
+            <Card.Title>
               <h2>Budget Tracker</h2>
             </Card.Title>
-            <Card.Text className="pl-3 pr-3">
+            <Card.Text>
               It can track the user's income and expenses. Made with React.JS and Node.JS.
             </Card.Text>
             
@@ -44,10 +48,10 @@ function Projects() {
         <Card className="card">
         <img src={img3} className="card-img-top"/>
           <Card.Body className="pb-0 pr-0 pl-0">
-            <Card.Title className="pl-3 pr-3">
+            <Card.Title >
               <h2>Ecommerce API</h2>
             </Card.Title>
-            <Card.Text className="pl-3 pr-3">
+            <Card.Text>
               Ecommerce shopping cart for a local bakery. Made with React and Node (WIP)
             </Card.Text>
             
@@ -56,6 +60,7 @@ function Projects() {
         </Card>
       </Col>
     </Row>
+    </Fade>
     </Container>
 </div>    
        

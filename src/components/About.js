@@ -5,7 +5,7 @@ import '../App.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHourglassHalf, faGraduationCap, faFistRaised, faUsers } from '@fortawesome/free-solid-svg-icons'
-
+import Fade from 'react-reveal/Fade'
 const About = () => {
     return (
         <div className="about-wrapper mt-5" id="about">
@@ -14,10 +14,15 @@ const About = () => {
                 
                 <Row className="mb-4">
                     <Col xs={12} lg={12}>
+                    <Fade top>
                         <h2 className="about-heading text-center mb-3">About</h2>
+                    </Fade> 
+                    <Fade bottom>   
                         <p className="about-description text-justify">I've worked in a virtual assistant tech start-up company as a team lead and account manager. Since then, I decided to leave and pursue my passion for web development and the IT industry. Through grit and the willingness to learn new things I hope to continue my FullStack web development journey.</p>
+                     </Fade>   
                     </Col>
                 </Row>
+                <Fade bottom>
                 <Row className="text-center">
                     <Col className="mb-md-4 mb-sm-5" lg={3} md={6} xs={6}>
                     <FontAwesomeIcon className="mb-2" icon={faHourglassHalf} size="3x" color="crimson"/>
@@ -37,6 +42,7 @@ const About = () => {
                     <p>Grit and Perseverence</p>
                     </Col>
                 </Row>
+                </Fade>
             </Container>
         </div>
     )
