@@ -21,7 +21,7 @@ function Projects() {
       <Col sm={12} md={4}>
         <Card className="card">
         <img src={img1} className="card-img-top"/>
-          <Card.Body className="pb-0 pr-0 pl-0">
+          <Card.Body className="card-body">
             <Card.Title>
               <h2>Email Template</h2>
             </Card.Title>
@@ -35,7 +35,7 @@ function Projects() {
       <Col sm={12} md={4}>
         <Card className="card">
         <img src={img2} className="card-img-top"/>
-          <Card.Body className="pb-0 pr-0 pl-0">
+          <Card.Body className="card-body">
             <Card.Title>
               <h2>Budget Tracker</h2>
             </Card.Title>
@@ -50,7 +50,7 @@ function Projects() {
       <Col sm={12} md={4} >
         <Card className="card">
         <img src={img3} className="card-img-top"/>
-          <Card.Body className="pb-0 pr-0 pl-0">
+          <Card.Body className="card-body">
             <Card.Title >
               <h2>Ecommerce API</h2>
             </Card.Title>

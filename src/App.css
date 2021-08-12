@@ -158,17 +158,16 @@ body {
 }
 
 .card-body{
-  padding: 3rem 0 !important;
+  padding-top: 3rem 0!important;
   font-family: 'Raleway', sans-serif;
-  font-weight: ;
 
 }
 
 .card-text{
   font-size: 0.9rem !important;  
-  padding: 0.3rem 0rem !important;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
+  padding-top: 0.3rem  !important;
+  padding-left: 0.3rem !important;
+  padding-right: 0.3rem !important;
 }
 
 
@@ -187,6 +186,11 @@ body {
 .btn-project{
   background-color: crimson !important;
   border-color: crimson !important;
+  margin-bottom: 0;
+}
+
+.btn-project:hover{
+  transform: scale(1.15);
 }
 
 
@@ -212,6 +216,7 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #fff;
   text-transform: uppercase;
+  font-weight: bold !important;
 }
 
 .form {
@@ -237,6 +242,10 @@ body {
   border-color: #343c44 !important;
   font-weight: 300 !important;
   text-transform: uppercase;
+}
+
+.btn-contacts:hover{
+  transform: scale(1.15);
 }
 
 .footer{
