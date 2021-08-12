@@ -61,6 +61,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  margin-bottom: 6rem ;
 
 }
 
@@ -112,6 +113,10 @@ body {
 
 /*About*/
 
+.about-wrapper{
+  margin-bottom: 6rem;
+}
+
 .about-description{
   font-size: 1.25rem;
   font-family: 'Raleway', sans-serif;
@@ -124,8 +129,13 @@ body {
   font-weight: bold !important;
   text-transform: uppercase;
   font-size: 3rem;
+  margin-bottom: 2rem;
+
 }
 
+.icon-row{
+  margin-top: 3rem !important;
+}
 
 .projects-wrapper{
   background-color: lightgrey;
