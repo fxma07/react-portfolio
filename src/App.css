@@ -57,7 +57,7 @@ body {
 
 .header-wrapper{
   position: relative;
-  background: url('https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') no-repeat;
+  background: url('./components/bg.jpeg') no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
