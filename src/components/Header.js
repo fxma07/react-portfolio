@@ -6,7 +6,7 @@ import {Link} from 'react-scroll'
 import Fade from 'react-reveal/Fade'
 const Header = () => {
     return (
-        <div className="header-wrapper">
+        <div className="header-wrapper" id="home">
             <div className="main-info">
                <Fade top>  
                 <h1 className="name">Mike Atilano</h1>
