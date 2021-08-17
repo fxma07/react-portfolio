@@ -16,7 +16,7 @@ function App() {
       <About/>
       <Projects/>
       <Fade>
-      <Contact/>
+        <Contact/>
       </Fade>
       <Footer/>
     </>   
