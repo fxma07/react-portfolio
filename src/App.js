@@ -7,7 +7,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import Fade from 'react-reveal/Zoom'
+import Fade from 'react-reveal/Fade'
 function App() {
   return (
     <>
