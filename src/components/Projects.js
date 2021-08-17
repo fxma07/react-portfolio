@@ -16,7 +16,7 @@ function Projects() {
 <Fade top>
 <h2 className="project-heading">Projects</h2>
 </Fade>
-  <Zoom delay={500}>
+  <Fade delay={500}>
     <Row>
       <Col sm={12} md={4}>
         <Card className="card">
@@ -63,7 +63,7 @@ function Projects() {
         </Card>
       </Col>
     </Row>
-    </Zoom>
+    </Fade>
     </Container>
 </div>    
        
