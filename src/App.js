@@ -15,9 +15,9 @@ function App() {
       <Header/>
       <About/>
       <Projects/>
-      <Zoom>
+      <Fade>
       <Contact/>
-      </Zoom>
+      </Fade>
       <Footer/>
     </>   
   );
